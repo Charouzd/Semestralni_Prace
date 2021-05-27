@@ -94,7 +94,7 @@ Datum narozeni ve formatu dd.MM.yyyy<br>
 Studentske cislo: <br>
 1111111<br>
 Student byl uspesne pridan<br>
-  <b>1) Špatně zadané možnosti datum a číslo studenta<br>  </>
+  <b>1) Špatně zadané možnosti datum a číslo studenta<br>  </b>
 1. Přidat studenta<br>
 2. Přidat výsledek<br>
 0. Zpět<br>
