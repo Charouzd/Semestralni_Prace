@@ -11,22 +11,32 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
   <li> Načíst výsledky</li>
   <li>Vyhodnotit studenty
     <ul>
-  <li>najít studenta ve výsledcích podle čísla</li>
-  <li>vytvořit absolventa odvozeného od studenta a přidat mu vlasti</li>
-</ul> </li>
-
+       <li>najít studenta ve výsledcích podle čísla</li>
+       <li>vytvořit absolventa odvozeného od studenta a přidat mu vlasti</li>
+    </ul> 
+  </li>
+      <li>Vizualizace
+    <ul>
+       <li>sezanm studentů</li>
+       <li>seznam absolventů</li>
+    </ul> 
+  </li>
+  </li>
+      <li> Řazení podle úspěšnosti
+    <ul>
+       <li>od nejlepšího</li>
+       <li>od nejhoršího</li>
+    </ul> 
+  </li>
+        <li> Zápis do souboru
+    <ul>
+       <li>uložit do txt</li>
+       <li>uložit do dat</li>
+      <li>uložit do pdf</li>
+    </ul> 
+  </li>
 </ol> 
 
-4) Vizualizace
-  4.1)sezanm studentů
-  4.2)seznam absolventů
-5) Řazení podle úspěšnosti
-  5.l) od nejlepšího
-  5.2) od nejhoršího
-6) Zápis do souboru
-  6.1) uložit do txt
-  6.2) uložit do dat
-  6.3) uložit do pdf
 
 Testování:
 
