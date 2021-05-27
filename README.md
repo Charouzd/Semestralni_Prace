@@ -9,9 +9,12 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
   <ol>
   <li>Načíst Studenty</li>
   <li> Načíst výsledky</li>
-  <li>Vyhodnotit studenty</li>
-    <ld>najít studenta ve výsledcích podle čísla</ld>
-    <ld>vytvořit absolventa odvozeného od studenta a přidat mu vlasti</ld>
+  <li>Vyhodnotit studenty
+    <ul>
+  <li>najít studenta ve výsledcích podle čísla</li>
+  <li>vytvořit absolventa odvozeného od studenta a přidat mu vlasti</li>
+</ul> </li>
+
 </ol> 
 
 4) Vizualizace
