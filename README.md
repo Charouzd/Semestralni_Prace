@@ -4,7 +4,8 @@
 <p>Vytvořte program, který od uživatel načtce seznam studentů a to bud formou csv souboru nebo ručním zadáváním. Student je určen jménem a příjmení,datem narození, pohlavím a identifikačním číslem. Dále nahraje soubor s výsledky, který objahuje Identifikační číslo a počet získaných bodů. Umožněte uživateli zvolit zda použije výsledky z posledního testu(předem dané) nebo nahraje jiné(vlastní). Na základě výsledků program vyhodnotí absolventy a určí zda prošli nebo ne jakou měli úspěšnost(maximum je 50b) a známku určenou následující stupnicí 1 <88%, 2 <75%,3 <58% , 4 <45%. Absolventy je možné řadit podle úspěšnosti a následně takto upravený seznam uložit ve foprmátu .txt, .dat, .pdf
 Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujte všechna možná nežádoucí ukončení způsobená chybami.</p>
 
-<h2>II)Návrh řešení</h2>
+<h2>II) Návrh řešení</h2>
+<hr>
 <p><b>Funkční Specifikace:</b>
   <ol>
   <li>Načíst Studenty</li>
@@ -38,7 +39,34 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
 </ol> 
 
 
-Testování:
+<h2>Testování:</h2>
+<hr>
 
+<p>Program byl vytvořen a testovám ve vývojovém prostředí Nebeans 8.2 a s verzí java 1.8.</p>
+<p>Program obsahuje podadresář data kde je možné najít požité testovací testovací soubory</p>
+<br>
+<p>System vyhodnocovani maturitnich praci 
+1. Manualni zadavani
+2. Nacist cele soubory 
+3. Zobrazit zapsané studenty
+4. Vyhodnotit výdledky zadaných studentů
+5. Srovnat absolventy podle skore
+6. Ulozit vysledky do souboru
+7. Zobrazit absolventy
+0. Konec programu
+Zadej volbu: 9
+Pod touto volbou neni zadna akce
 
+System vyhodnocovani maturitnich praci 
+1. Manualni zadavani
+2. Nacist cele soubory 
+3. Zobrazit zapsané studenty
+4. Vyhodnotit výdledky zadaných studentů
+5. Srovnat absolventy podle skore
+6. Ulozit vysledky do souboru
+7. Zobrazit absolventy
+0. Konec programu
+Zadej volbu: trol
+Nesprávná volba! 
+</p>
 
