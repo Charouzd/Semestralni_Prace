@@ -68,5 +68,59 @@ System vyhodnocovani maturitnich praci  <br>
 0. Konec programu <br>
 Zadej volbu: trol <br>
 Nesprávná volba!  <br>
+  
+System vyhodnocovani maturitnich praci <br>
+1. Manualni zadavani<br>
+2. Nacist cele soubory <br>
+3. Zobrazit zapsané studenty<br>
+4. Vyhodnotit výdledky zadaných studentů<br>
+5. Srovnat absolventy podle skore<br>
+6. Ulozit vysledky do souboru<br>
+7. Zobrazit absolventy<br>
+0. Konec programu<br>
+Zadej volbu: 1<br>
+1. Přidat studenta<br>
+2. Přidat výsledek<br>
+0. Zpět<br>
+<br>
+  <b>1) Správně zadané možnosti<br>
+Zadej volbu: 1 <br>
+Jmeno a prijmeni<br>
+Filip Novak<br>
+Pohlavi M(muz) / W(zena)<br>
+M<br>
+Datum narozeni ve formatu dd.MM.yyyy<br>
+15.09.2001<br>
+Studentske cislo: <br>
+1111111<br>
+Student byl uspesne pridan<br>
+  <b>1) Špatně zadané možnosti datum a číslo studenta<br>  
+1. Přidat studenta<br>
+2. Přidat výsledek<br>
+0. Zpět<br>
+Zadej volbu: 1<br>
+Jmeno a prijmeni<br>
+nejaka<br>
+hloupost<br>
+Pohlavi M(muz) / W(zena)<br>
+muz<br>
+Datum narozeni ve formatu dd.MM.yyyy<br>
+10.25.0<br>
+Spatne zadane datum narozeni. Zkus to znovu<br>
+1. Přidat studenta <br>
+2. Přidat výsledek <br>
+0. Zpět <br>
+Zadej volbu: 1 <br>
+Jmeno a prijmeniv <br>
+Filip Novak  <br>
+Pohlavi M(muz) / W(zena) <br>
+M <br>
+Datum narozeni ve formatu dd/MM/yyyy <br>
+15.11.2020 <br>
+Studentske cislo:  <br>
+rozhodneNeCislo <br>
+Spatne zadane studentovo cislo. Zkus to znovu <br>
+  
+  
 </p>
 
