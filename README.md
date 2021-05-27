@@ -1,5 +1,5 @@
 # Semestralni_Prace
-I)Zadání:
+<h1>I)Zadání:</h1>
 Vytvořte program, který od uživatel načtce seznam studentů a to bud formou csv souboru nebo ručním zadáváním. Student je určen jménem a příjmení,datem narození, pohlavím a identifikačním číslem. Dále nahraje soubor s výsledky, který objahuje Identifikační číslo a počet získaných bodů. Umožněte uživateli zvolit zda použije výsledky z posledního testu(předem dané) nebo nahraje jiné(vlastní). Na základě výsledků program vyhodnotí absolventy a určí zda prošli nebo ne jakou měli úspěšnost(maximum je 50b) a známku určenou následující stupnicí 1 <88%, 2 <75%,3 <58% , 4 <45%. Absolventy je možné řadit podle úspěšnosti a následně takto upravený seznam uložit ve foprmátu .txt, .dat, .pdf
 Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujte všechna možná nežádoucí ukončení způsobená chybami.
 
