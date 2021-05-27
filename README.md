@@ -45,28 +45,28 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
 <p>Program byl vytvořen a testovám ve vývojovém prostředí Nebeans 8.2 a s verzí java 1.8.</p>
 <p>Program obsahuje podadresář data kde je možné najít požité testovací testovací soubory</p>
 <br>
-<p>System vyhodnocovani maturitnich praci 
-1. Manualni zadavani
-2. Nacist cele soubory 
-3. Zobrazit zapsané studenty
-4. Vyhodnotit výdledky zadaných studentů
-5. Srovnat absolventy podle skore
-6. Ulozit vysledky do souboru
-7. Zobrazit absolventy
-0. Konec programu
-Zadej volbu: 9
-Pod touto volbou neni zadna akce
-
-System vyhodnocovani maturitnich praci 
-1. Manualni zadavani
-2. Nacist cele soubory 
-3. Zobrazit zapsané studenty
-4. Vyhodnotit výdledky zadaných studentů
-5. Srovnat absolventy podle skore
-6. Ulozit vysledky do souboru
-7. Zobrazit absolventy
-0. Konec programu
-Zadej volbu: trol
-Nesprávná volba! 
+<p>System vyhodnocovani maturitnich praci <br>
+1. Manualni zadavani <br>
+2. Nacist cele soubory  <br>
+3. Zobrazit zapsané studenty <br>
+4. Vyhodnotit výdledky zadaných studentů <br>
+5. Srovnat absolventy podle skore <br>
+6. Ulozit vysledky do souboru <br>
+7. Zobrazit absolventy <br>
+0. Konec programu <br>
+Zadej volbu: 9 <br>
+Pod touto volbou neni zadna akce <br>
+ <br>
+System vyhodnocovani maturitnich praci  <br>
+1. Manualni zadavani <br>
+2. Nacist cele soubory  <br>
+3. Zobrazit zapsané studenty <br>
+4. Vyhodnotit výdledky zadaných studentů <br>
+5. Srovnat absolventy podle skore <br>
+6. Ulozit vysledky do souboru <br>
+7. Zobrazit absolventy <br>
+0. Konec programu <br>
+Zadej volbu: trol <br>
+Nesprávná volba!  <br>
 </p>
 
