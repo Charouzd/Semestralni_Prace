@@ -68,7 +68,7 @@ public final class Menu {
             int choise = sc.nextInt();
             return choise;
         } catch (InputMismatchException ex) {
-            System.out.println("Nesprávná volba!");
+
             sc.nextLine();
              return 11;
         }
@@ -86,7 +86,7 @@ public final class Menu {
             int choise = sc.nextInt();
             return choise;
         } catch (InputMismatchException ex) {
-            System.out.println("Nesprávná volba!");
+
             sc.nextLine();
             return 11;
         }

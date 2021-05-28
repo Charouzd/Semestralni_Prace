@@ -199,6 +199,8 @@ public class UI {
     }
 
     private static void absolventsCheck() {
+        System.out.println("Seznam vsech absolventu: ");
+        System.out.println("");
         System.out.println(evaluateInter.showAbslovents());
     }
 
