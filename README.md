@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+PC NUMBERS
+</title>
+</head>
+
+
+<body>
 <h1> Semestralni_Prace </h1>
 <h2>I) Zadání:</h2>
 <hr>
@@ -39,13 +49,14 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
 </ol> 
 
 
-<h2>Testování:</h2>
+<h2>III) Testování:</h2>
 <hr>
 
 <p>Program byl vytvořen a testovám ve vývojovém prostředí Nebeans 8.2 a s verzí java 1.8.</p>
 <p>Program obsahuje podadresář data kde je možné najít požité testovací testovací soubory</p>
 <br>
-<p>System vyhodnocovani maturitnich praci <br>
+<p><h3>Hlavní menu</h3><br>
+System vyhodnocovani maturitnich praci <br>
 1. Manualni zadavani <br>
 2. Nacist cele soubory  <br>
 3. Zobrazit zapsané studenty <br>
@@ -68,7 +79,8 @@ System vyhodnocovani maturitnich praci  <br>
 0. Konec programu <br>
 Zadej volbu: trol <br>
 Nesprávná volba!  <br>
-  
+  </p>
+  <p>
 System vyhodnocovani maturitnich praci <br>
 1. Manualni zadavani<br>
 2. Nacist cele soubory <br>
@@ -82,8 +94,10 @@ Zadej volbu: 1<br>
 1. Přidat studenta<br>
 2. Přidat výsledek<br>
 0. Zpět<br>
-
-  <b>1) Správně zadané možnosti<br></b>
+<br>
+</p>
+<h3>Přidávání studenta</h3>
+<p><b>Správně zadané možnosti<br></b>
 Zadej volbu: 1 <br>
 Jmeno a prijmeni<br>
 Filip Novak<br>
@@ -94,14 +108,14 @@ Datum narozeni ve formatu dd.MM.yyyy<br>
 Studentske cislo: <br>
 1111111<br>
 Student byl uspesne pridan<br>
-  <b>1) Špatně zadané možnosti datum a číslo studenta<br>  </b>
+<br></p>
+<p><b>Špatně zadané možnosti<br>  </b>
 1. Přidat studenta<br>
 2. Přidat výsledek<br>
 0. Zpět<br>
 Zadej volbu: 1<br>
 Jmeno a prijmeni<br>
-nejaka<br>
-hloupost<br>
+nejaka hloupost<br>
 Pohlavi M(muz) / W(zena)<br>
 muz<br>
 Datum narozeni ve formatu dd.MM.yyyy<br>
@@ -120,7 +134,252 @@ Datum narozeni ve formatu dd/MM/yyyy <br>
 Studentske cislo:  <br>
 rozhodneNeCislo <br>
 Spatne zadane studentovo cislo. Zkus to znovu <br>
-  
-  
+</p><p>
+ <h3>Přidávání výsledku</h3>
 </p>
-
+<b>Špatně zadaný výsledky</b><br>
+1. Přidat studenta<br>
+2. Přidat výsledek<br>
+0. Zpět<br>
+Zadej volbu: 2<br>
+Zadej sedmimistne studentske cislo:<br>
+necislo<br>
+Spatne zadane studentovo cislo nebo body ziskane v testu. Zkus to znovu<br>
+1. Přidat studenta<br>
+2. Přidat výsledek<br>
+0. Zpět<br>
+Zadej volbu: 2<br>
+Zadej sedmimistne studentske cislo:<br>
+1234<br>
+Studentske cislo nesplnuje pozadeavek sedmimistneho cisla<br>
+necislo<br>
+Spatne zadane studentovo cislo nebo body ziskane v testu. Zkus to znovu<br>
+1. Přidat studenta<br>
+2. Přidat výsledek<br>
+0. Zpět<br>
+Zadej volbu: 2<br>
+Zadej sedmimistne studentske cislo:<br>
+1234567<br>
+Zadej pocet bodu ziskanych v testu:<br>
+-9<br>
+Test nebyl pridan pocet bodu neni z mozneho rozsahu(0-50).<br>
+1. Přidat studenta<br>
+2. Přidat výsledek<br>
+0. Zpět<br>
+Zadej volbu: 2<br>
+Zadej sedmimistne studentske cislo:<br>
+1234567<br>
+Zadej pocet bodu ziskanych v testu:<br>
+a<br>
+Spatne zadane studentovo cislo nebo body ziskane v testu. Zkus to znovu<br>
+<b>Správně zadaný výsledky</b></b>
+1. Přidat studenta<br>
+2. Přidat výsledek<br>
+0. Zpět<br>
+Zadej volbu: 2<br>
+Zadej sedmimistne studentske cislo:<br>
+1234567<br>
+Zadej pocet bodu ziskanych v testu:<br>
+25<br>
+Vysledek byl uspesne pridan pridan.<br>
+</p>
+<h3>Načítání souborů</h3>
+<p>
+<b>Špané zadávání</b><br>
+System vyhodnocovani maturitnich praci <br>
+1. Manualni zadavani<br>
+2. Nacist cele soubory <br>
+3. Zobrazit zapsané studenty<br>
+4. Vyhodnotit výdledky zadaných studentů<br>
+5. Srovnat absolventy podle skore<br>
+6. Ulozit vysledky do souboru<br>
+7. Zobrazit absolventy<br>
+0. Konec programu<br>
+Zadej volbu: 2<br>
+1. Nahrát soubor se studenty<br>
+2. Nahrát výsledky z tohoto roku<br>
+3. Nahrát výsledky konkrétního roku<br>
+4. Ukazat pocet nahranych informaci<br>
+0. Zpět<br>
+Zadej volbu: 1<br>
+Zadej cestu k souboru<br>
+spatna/cesta.haha<br>
+soubor nebyl nalezen nebo nelze precist<br>
+<br>
+<b>Správné zadávání</b><br>
+1. Nahrát soubor se studenty<br>
+2. Nahrát výsledky z tohoto roku<br>
+3. Nahrát výsledky konkrétního roku<br>
+4. Ukazat pocet nahranych informaci<br>
+0. Zpět<br>
+Zadej volbu: 3<br>
+Zadej cestu k souboru s vysledky<br>
+data//test//test.csv<br>
+Výsledky načteny<br>
+1. Nahrát soubor se studenty<br>
+2. Nahrát výsledky z tohoto roku<br>
+3. Nahrát výsledky konkrétního roku<br>
+4. Ukazat pocet nahranych informaci<br>
+0. Zpět<br>
+Zadej volbu: 4<br>
+počet studentů:3 počet výsledků 8<br>
+</p>
+<h3>Zobrazení a vyhodnocení</h3>
+<p>
+<b>Vyhodnocení prazných seznamů</b><br>
+System vyhodnocovani maturitnich praci <br>
+1. Manualni zadavani <br>
+2. Nacist cele soubory  <br>
+3. Zobrazit zapsané studenty <br>
+4. Vyhodnotit výdledky zadaných studentů <br>
+5. Srovnat absolventy podle skore <br>
+6. Ulozit vysledky do souboru <br>
+7. Zobrazit absolventy <br>
+0. Konec programu <br>
+Zadej volbu: 3 <br>
+Nasledujici studenti jsou prihlaseni k maturitni zkousce: <br>
+ <br>
+ <br>
+System vyhodnocovani maturitnich praci  <br>
+1. Manualni zadavani <br>
+2. Nacist cele soubory  <br>
+3. Zobrazit zapsané studenty <br>
+4. Vyhodnotit výdledky zadaných studentů <br>
+5. Srovnat absolventy podle skore <br>
+6. Ulozit vysledky do souboru <br>
+7. Zobrazit absolventy <br>
+0. Konec programu <br>
+Zadej volbu: 4 <br>
+vyhodnoceny výsledky <br>
+ <br>
+ <br>
+System vyhodnocovani maturitnich praci  <br>
+1. Manualni zadavani <br>
+2. Nacist cele soubory  <br>
+3. Zobrazit zapsané studenty <br>
+4. Vyhodnotit výdledky zadaných studentů <br>
+5. Srovnat absolventy podle skore <br>
+6. Ulozit vysledky do souboru <br>
+7. Zobrazit absolventy <br>
+0. Konec programu <br>
+Zadej volbu: 7 <br>
+Seznam vsech absolventu:  <br>
+ <br>
+<b>Zadané informace</b><br>
+System vyhodnocovani maturitnich praci <br>
+1. Manualni zadavani<br>
+2. Nacist cele soubory <br>
+3. Zobrazit zapsané studenty<br>
+4. Vyhodnotit výdledky zadaných studentů<br>
+5. Srovnat absolventy podle skore<br>
+6. Ulozit vysledky do souboru<br>
+7. Zobrazit absolventy<br>
+0. Konec programu<br>
+Zadej volbu: 3<br>
+Nasledujici studenti jsou prihlaseni k maturitni zkousce:<br>
+Student number:1234567  Name:Filip Charouzd(M) born in 2000-09-16<br>
+Student number:7654321  Name:Karel Bor(M) born in 2000-09-25<br>
+Student number:1122334  Name:Lida Novakova(W) born in 2001-04-15<br>
+<br>
+<br>
+System vyhodnocovani maturitnich praci<br> 
+1. Manualni zadavani<br>
+2. Nacist cele soubory <br>
+3. Zobrazit zapsané studenty<br>
+4. Vyhodnotit výdledky zadaných studentů<br>
+5. Srovnat absolventy podle skore<br>
+6. Ulozit vysledky do souboru<br>
+7. Zobrazit absolventy<br>
+0. Konec programu<br>
+Zadej volbu: 4<br>
+vyhodnoceny výsledky<br>
+Student's number:1234567  Name:Filip Charouzd(M) born in 2000-09-16 seccesfuly gradueted for 1.0(96.0%)<br>
+Student's number:7654321  Name:Karel Bor(M) born in 2000-09-25 seccesfuly gradueted for 4.0(50.0%)<br>
+Student's number:1122334  Name:Lida Novakova(W) born in 2001-04-15 seccesfuly gradueted for 3.0(72.0%)<br>
+</p>
+<h3>Řazení podle úspěšnosti</h3>
+<p>
+1. Zobrazit absolventy<br>
+2. Srovnat Absolventy podle bodu od nejlepších<br>
+3. Srovnat Absolventy podle bodu od nejhorších<br>
+0. Zpět<br>
+Zadej volbu: 2<br>
+1. Zobrazit absolventy<br>
+2. Srovnat Absolventy podle bodu od nejlepších<br>
+3. Srovnat Absolventy podle bodu od nejhorších<br>
+0. Zpět<br>
+Zadej volbu: 1<br>
+Student's number:1234567  Name:Filip Charouzd(M) born in 2000-09-16 seccesfuly gradueted for 1.0(96.0%)<br>
+Student's number:1122334  Name:Lida Novakova(W) born in 2001-04-15 seccesfuly gradueted for 3.0(72.0%)<br>
+Student's number:7654321  Name:Karel Bor(M) born in 2000-09-25 seccesfuly gradueted for 4.0(50.0%)<br>
+<br>
+1. Zobrazit absolventy<br>
+2. Srovnat Absolventy podle bodu od nejlepších<br>
+3. Srovnat Absolventy podle bodu od nejhorších<br>
+0. Zpět<br>
+Zadej volbu: 3<br>
+1. Zobrazit absolventy<br>
+2. Srovnat Absolventy podle bodu od nejlepších<br>
+3. Srovnat Absolventy podle bodu od nejhorších<br>
+0. Zpět<br>
+Zadej volbu: 1<br>
+Student's number:7654321  Name:Karel Bor(M) born in 2000-09-25 seccesfuly gradueted for 4.0(50.0%)<br>
+Student's number:1122334  Name:Lida Novakova(W) born in 2001-04-15 seccesfuly gradueted for 3.0(72.0%)<br>
+Student's number:1234567  Name:Filip Charouzd(M) born in 2000-09-16 seccesfuly gradueted for 1.0(96.0%)<br>
+</p>
+<h3>Ukládání</h3>
+<p>
+<b>Spatné zadávání</b><br>
+System vyhodnocovani maturitnich praci <br>
+1. Manualni zadavani<br>
+2. Nacist cele soubory <br>
+3. Zobrazit zapsané studenty<br>
+4. Vyhodnotit výdledky zadaných studentů<br>
+5. Srovnat absolventy podle skore<br>
+6. Ulozit vysledky do souboru<br>
+7. Zobrazit absolventy<br>
+0. Konec programu<br>
+Zadej volbu: 6<br>
+1. Ulozit jako .txt<br> 
+2. Ulozit jako .dat<br>
+3. Ulozit jako .pdf<br>
+0. Zpět<br>
+Zadej volbu: 1<br>
+Zadej jmeno souboru: <br>
+//nesmysl//na//entou.wtf<br>
+File created: entou.wtf.txt<br>
+Soubor se nepodarilo vytvořit.<br>
+<br>
+<b>Správné zadávání</b><br>
+<br>
+1. Ulozit jako .txt <br>
+2. Ulozit jako .dat<br>
+3. Ulozit jako .pdf<br>
+0. Zpět<br>
+Zadej volbu: 1<br>
+Zadej jmeno souboru: <br>
+vysledky<br>
+File created: vysledky.txt<br>
+Soubor byl vytvořen v podadresari programu(data//results//).<br>
+<br>
+1. Ulozit jako .txt <br>
+2. Ulozit jako .dat<br>
+3. Ulozit jako .pdf<br>
+0. Zpět<br>
+Zadej volbu: 2<br>
+Zadej jmeno souboru: <br>
+vysledky1<br>
+Soubor byl vytvořen v podadresari programu(data//results//).<br>
+<br>
+1. Ulozit jako .txt <br>
+2. Ulozit jako .dat<br>
+3. Ulozit jako .pdf<br>
+0. Zpět<br>
+Zadej volbu: 3<br>
+Zadej jmeno souboru: <br>
+vysledky2<br>
+Soubor byl vytvoren v podadresari programu(data//results//).<br>
+<br>
+</p>
+</body>
+</html>
