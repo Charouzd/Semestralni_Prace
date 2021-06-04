@@ -50,7 +50,7 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
 
   <h2>III)Class Diagram</h2>
   <hr>
-  <img src="classDiagram.jpg">
+  <img src="/calssDiagram.jpg">
   
 <h2>IV) Testování:</h2>
 <hr>
