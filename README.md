@@ -48,8 +48,11 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
   </li>
 </ol> 
 
-
-<h2>III) Testování:</h2>
+  <h2>III)Class Diagram</h2>
+  <hr>
+  <img src="classDiagram.jpg">
+  
+<h2>IV) Testování:</h2>
 <hr>
 
 <p>Program byl vytvořen a testovám ve vývojovém prostředí Nebeans 8.2 a s verzí java 1.8.</p>
