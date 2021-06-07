@@ -399,5 +399,10 @@ vysledky2<br>
 Soubor byl vytvoren v podadresari programu(data//results//).<br>
 <br>
 </p>
+    <h2>VI) Knihovnna Itext</h2>
+    <hr>
+    <p>
+   K práci je využita externí knihovna itext. Tato knihovna je určená k vytváření a manipulaci s pdf soubory v prostředí Java a .NET. Za pomoci této knihovny se vytvoří prázdný pdf dokument a poté se pomcí jejích jednotlivých metod přidávají textová data nebo obrázky.<br>
+    </p>
 </body>
 </html>
