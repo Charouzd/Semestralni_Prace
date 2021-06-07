@@ -51,9 +51,9 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
   <p>
   Soubory se načítají po řádcích. Soubor vždy obsahuje záhlaví.<br>
     V <b>Prvním souboru</b> se načítají data studentů, jejichž výsledky chceme ověřit.<br>
-  jmeno(String),prijmeni(String),sex(char),born(LocalDate),cislo(int)<br>
+  jmeno(String),prijmeni(String), sex(F/M), born(dd.mm.yyyy), cislo(sedmimístné číslo)<br>
      V <b>Druhém souboru</b> se načítají data výsledků<br>
-  cislo(int),score(int)<br>
+  cislo(sedmimístné číslo),score(0-50)<br>
   </p>
   <h3>Výstupní soubory</h3><br>
   <p>
@@ -61,7 +61,9 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
    Výsledky lze uložit do .txt, .pdf a .dat.<br>
     V <b>souboru</b> se je použit následují formát výpisu:<br>
     Student's number:7654321<int>  Name:Karel<String> Bor<String>(M<char>) born in 2000-09-25<LocalDate> succesfuly gradueted for 4.0<double>(50.0%)<double><br>
-  </p>
+        V <b>souboru .dat</b> se je použit následují formát výpisu:<br>
+    xxxxxxx<int>  jméno<String> příjmení<String>(M<char>) born in 2000-09-25<LocalDate> succesfuly gradueted for 4.0<double>(50.0%)<double><br>
+    </p>
   
   <h2>IV) Class Diagram</h2>
   <hr>
