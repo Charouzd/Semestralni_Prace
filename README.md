@@ -66,11 +66,11 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
     Student's number:7654321<int>  Name:Karel<String> Bor<String>(M<char>) born in 2000-09-25<LocalDate> succesfuly gradueted for 4.0<double>(50.0%)<double><br>
   </p>
   
-  <h2>IV)Class Diagram</h2>
+  <h2>IV) Class Diagram</h2>
   <hr>
   <img src="/calssDiagram.jpg">
   
-<h2>IV) Testování:</h2>
+<h2>V) Testování:</h2>
 <hr>
 
 <p>Program byl vytvořen a testovám ve vývojovém prostředí Nebeans 8.2 a s verzí java 1.8.</p>
