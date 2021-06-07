@@ -1,9 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>
-PC NUMBERS
-</title>
 </head>
 
 
@@ -56,7 +53,7 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
     V <b>Prvním souboru</b> se načítají data studentů, jejichž výsledky chceme ověřit.<br>
   jmeno(String),prijmeni(String),sex(char),born(LocalDate),cislo(int)<br>
      V <b>Druhém souboru</b> se načítají data výsledků<br>
-  cislo(int) a score(int)<br>
+  cislo(int),score(int)<br>
   </p>
   <h3>Výstupní soubory</h3><br>
   <p>
@@ -68,7 +65,7 @@ Komunikaci s uživatelem realizujte pomocí řádkového menu. Program eliminujt
   
   <h2>IV) Class Diagram</h2>
   <hr>
-  <img src="/calssDiagram.jpg">
+  <img src="/classDiagram.jpg">
   
 <h2>V) Testování:</h2>
 <hr>
